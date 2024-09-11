@@ -15,6 +15,7 @@ def init_db():
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         ''')
+        print("Database initialized successfully.")
         conn.commit()
 
 # @app.before_first_request
